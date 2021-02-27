@@ -7,3 +7,20 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let movie = {
+    nameOfMovie: 'Step Brothers',
+    runTime: '1hr 38min',
+    genre: 'Comedy', 
+    characters: [
+            {name: 'Brennan', Age: 32, items: [ {one: 'bike'},{two: 'pillow'} ] },
+            {name: 'Dale', Age: 32, items: [ {one: 'boat'}, {two: 'hoes'} ]} 
+
+        ] 
+        
+}
+console.log(movie.nameOfMovie);
+console.log(movie.runTime);
+console.log(movie.characters);
+console.log(movie.characters[0].name);
+console.log(movie.characters[0].items[0].one);
